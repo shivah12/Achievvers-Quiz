@@ -434,7 +434,7 @@ export default function QuizApp() {
                     <GraduationCap className="w-10 h-10" />
                   </div>
                   <CardTitle className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
-                    Achievers Coaching
+                    Achievvers Coaching
                   </CardTitle>
                   <CardDescription className="text-lg font-medium">Knowledge Assessment Quiz</CardDescription>
                 </CardHeader>
@@ -780,9 +780,11 @@ export default function QuizApp() {
                 </CardContent>
 
                 <CardFooter className="flex flex-col gap-4 relative z-10">
-                  <Button className="w-full h-12 text-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700">
+                <a href = "https://achievvers.vercel.app/" target ="_blank" rel = "noopener noreferrer">
+                <Button className="w-full h-12 text-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700">
                     Join Us and Grow for the Future
-                  </Button>
+                </Button>
+                </a>
                   <Button
                     variant="outline"
                     className="w-full h-12 text-lg"
@@ -820,7 +822,7 @@ export default function QuizApp() {
 
       {/* Footer */}
       <footer className="py-6 text-center text-sm text-muted-foreground">
-        &copy; {new Date().getFullYear()} Achievers Coaching. All rights reserved.
+        &copy; {new Date().getFullYear()} Achievvers Coaching. All rights reserved.
       </footer>
     </div>
   )
